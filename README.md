@@ -3,7 +3,7 @@ Hey everyone.
 
 In this new project, I have decided to go a little further on the study of Data Science and Machine Learning Development.
 By using Python, I was able to develop a neural network capable of analysing and learning Non Linear Math Equations, such as trigonometric functions.
-A very great a approach as I dive deeper into the Deep Learning world and its wide range of Libraries.
+A very great  approach as I dive deeper into the Deep Learning world and its wide range of Libraries.
 
 TOOLS AND TECHONOLOGIES USED 
 
