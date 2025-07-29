@@ -8,6 +8,7 @@ A very great a aprroach as I dive more deep into the Deep Learning world and its
 TOOLS AND TECHONOLOGIES USED 
 
 PyTorch - One the most famous libraries in Python for deep learning models and AI development, used for the purpose of creating and Training my neural network.
+
 This model was consisted of:
     - Two layers with 32 neurons each
     - One hidden layer used for neuron activation
