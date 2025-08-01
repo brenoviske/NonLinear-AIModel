@@ -12,7 +12,7 @@ def ai_model():
     # Now normalizing the Data
     u = x_train.mean()
     std = x_train.std()
-    x_train  = x_train - u / std
+    x_train = ( x_train - u ) / std
 
     # Target NonLinear-Equation
     y = torch.cos(x_train) + x_train.pow(2)
