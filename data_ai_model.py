@@ -44,7 +44,7 @@ def ai_model():
 
 
     # Displaying the graphic
-    
+
     plt.figure(figsize = (10,5) )
     plt.plot(x_train.numpy(),y.numpy(), label = 'Original', color = 'red')
     plt.plot(x_train.numpy(),y_pred.detach().numpy(), label = 'Predicted' , color = 'green')
