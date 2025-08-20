@@ -16,6 +16,8 @@ def ai_model():
 
     # Target NonLinear-Equation
     y = torch.cos(x_train) + x_train.pow(2)
+    # Normalizing the Data
+    y = ( y - torch.mean(y))/ torch.std(y)
 
     # Creating the AI model
     model = nn.Sequential(
@@ -31,7 +33,7 @@ def ai_model():
     optimizer = optim.Adam(model.parameters(),0.03)
 
     # Training the AI model
-    epochs = 3000 # This is the number of times I will set my neural network to be trained
+    epochs = 500 # This is the number of times I will set my neural network to be trained
     for i in range (epochs+1):
         y_pred = model(x_train)
         loss = criterion(y_pred,y)
